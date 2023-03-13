@@ -12,14 +12,15 @@ vai em angular.json e em "configurations" cola:
         ]
     }
 
-em "serve" adicionar em "configurations":
-    "nome_de_inicialização": { //pode ser o proprio nome da pasta
+em "serve" adicionar em "configurations": //pode ser o proprio nome da pasta, ao invés do nome_de_inicialização
+
+    "nome_de_inicialização": { 
       "browserTarget": "nome-do-projeto:build:name_enviroment"
     }
     
 por fim dar o seguinte comando:
 
-`ng serve --configuration=name_environment` -> muda o environment;
+`ng serve --configuration=name_environment` -> muda o environment quando rodar o serve;
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
